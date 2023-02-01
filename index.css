@@ -83,6 +83,7 @@ header table {
 #logo {
     font-size:30px;
     color:rgb(54, 107, 161);
+    white-space: nowrap;
 }
 #navigation {
     text-align:right;
