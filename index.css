@@ -165,7 +165,7 @@ header table {
     height: auto;
     max-width: 100%;
     background:linear-gradient(0deg,rgba(255,255,255, 0.0),rgb(54, 107, 161, 0.8)),url("geoclass.png") center center;
-    background-size:cover;
+    background-size: contain;
     background-repeat:no-repeat;
 }
 #work {
