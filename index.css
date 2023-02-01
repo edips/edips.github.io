@@ -9,7 +9,7 @@ body {
     scroll-behavior: smooth;
 }
 #loading {
-    width: 90vw;
+    width: 100vw;
     height: 100vh;
     position: fixed;
     background: #366BA1;
