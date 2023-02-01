@@ -163,7 +163,7 @@ header table {
 }
 #rightImage {
     width:95%;
-    height:80vh;
+    height:60vh;
     background:linear-gradient(0deg,rgba(255,255,255, 0.0),rgb(54, 107, 161, 0.8)),url("geoclass.png") center center;
     background-size:cover;
     background-repeat:no-repeat;
