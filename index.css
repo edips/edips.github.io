@@ -199,13 +199,12 @@ header table {
 #bio {
     width:92vw;
     padding:6vh 4vw;
-    font-weight:bold;
-    
 }
 #bio h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(54, 107, 161);
     width:8%;
+    display: inline;
 }
 #contact {
     width:92vw;
