@@ -115,7 +115,8 @@ header table {
     padding:0px 8%;
 }
 #about h1 {
-    font-size:23px;
+    font-size:30px;
+    word-wrap:break-word;
 }
 #about table {
     width:70%;
