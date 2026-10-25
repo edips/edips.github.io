@@ -11,6 +11,11 @@
     .geoclass-policy { border: 1px solid #b8d3ea; border-left: 5px solid #287bb5; border-radius: 8px; background: #f3f8fc; padding: 16px 20px; margin: 24px 0; }
     .geoclass-policy h2 { margin-top: 0; }
     .geoclass-policy li { margin: 10px 0; }
+    .platforms { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px; margin: 20px 0; }
+    .platform { display: flex; flex-direction: column; gap: 9px; padding: 18px; background: #fff; border: 1px solid #9bbbd5; border-radius: 10px; text-decoration: none; min-height: 130px; }
+    .platform strong { font-size: 1.3rem; } .platform span { font-size: .95rem; }
+    .platform:hover, .platform:focus-visible { outline: 3px solid #075da8; outline-offset: 3px; }
+    @media(max-width: 550px) { .platforms { grid-template-columns: 1fr; } body { padding: 18px; } }
   </style>
 </head>
 <body>
@@ -18,14 +23,14 @@
 <h1>Privacy Policies</h1>
 <section class="geoclass-policy" aria-labelledby="geoclass-policy-title">
   <h2 id="geoclass-policy-title">Geoclass Surveying Calculator</h2>
-  <p>Geoclass Surveying Calculator has a separate privacy policy covering its projects, maps,
-  advertisements and Ad-Free purchases.</p>
-  <ul>
-    <li><a href="https://edips.github.io/GEOCLASS_PRIVACY_POLICY.html">Read the Geoclass privacy policy</a></li>
-    <li><a href="https://edips.github.io/GEOCLASS_PRIVACY_POLICY.html#privacy-requests">Request access, correction or deletion of Geoclass data</a></li>
-  </ul>
-  <p>The policy below covers the other apps listed there. For Geoclass Surveying Calculator,
-  please use the separate policy linked above. Geoclass Lite is a different app and remains listed below.</p>
+  <p>Choose your platform. Android and iPhone/iPad use different purchase services
+  and data practices, so each has its own policy.</p>
+  <nav class="platforms" aria-label="Geoclass privacy policies">
+    <a class="platform" href="GEOCLASS_PRIVACY_POLICY.html"><strong>Android</strong><span>Google Play · Geoclass Surveying Calculator</span><span>Read the Android privacy policy →</span></a>
+    <a class="platform" href="GEOCLASS_IOS_PRIVACY_POLICY.html"><strong>iPhone &amp; iPad</strong><span>App Store · Geoclass for iOS/iPadOS</span><span>Read the iOS privacy policy →</span></a>
+  </nav>
+  <p>For data requests, use the contact section of your platform's policy.
+  The policies for our other Android apps remain below; Geoclass Lite is a separate app.</p>
 </section>
 <section aria-labelledby="other-apps-policy-title">
 <h2 id="other-apps-policy-title">Privacy Policy for the Other Apps</h2>
